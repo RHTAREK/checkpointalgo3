@@ -1,0 +1,13 @@
+PROCEDURE dot_product(ps,v1,v2):FLOAT
+
+BEGIN
+    ps := v1*v2 ;
+END
+FUNCTION dot_pro(v1,v2) :FLOAT
+VAR
+   ps: FLOAT;
+
+BEGIN
+    ps:= dot_product(ps,v1,v2);
+    RETURN ps ;
+END

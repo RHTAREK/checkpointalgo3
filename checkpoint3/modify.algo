@@ -1,0 +1,15 @@
+FUNCTION dot_pro(v1,v2) : FLOAT
+VAR
+    ps:INTEGER;
+BEGIN
+ps:=v1*v2;    RETURN: ps ;
+END
+
+FUNCTION dot_product(v1,v2) : FLOAT
+VAR
+    ps:FLOAT;
+    BEGIN
+
+ps:= dot_pro (v1,v2)
+RETURN ps
+END
